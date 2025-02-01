@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 40%;
+    align-items: center;
+}
