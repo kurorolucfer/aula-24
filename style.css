@@ -1,16 +1,40 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-header{
+
+
+#header{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+}
+#input-header{
+border-radius: 15px;
 }
 input{
+    margin: 20px;
+    height: 35px;
     width: 40%;
     align-items: center;
+    border-radius: 15px 0 0 15px ;
+}
+.lupinha{
+    position: relative;
+    right: 20px;
+}
+#btn{
+    border-radius: 0 15px 15px 0;
+    height: 35px;
+    width: 130%;
+}
+.microfone1{
+    position: relative;
+    left: 15px;
 }
 #microfone{
     height: 25px;
-    width: 50px;
+    width: 25px;
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
 }
